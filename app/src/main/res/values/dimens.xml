@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="menu_button_height">70dp</dimen>
+    <dimen name="hand_view_size">200dp</dimen>
+    <dimen name="card_padding">16dp</dimen>
+    <dimen name="card_radius">16dp</dimen>
+    <dimen name="title_margin">24dp</dimen>
+    <dimen name="button_margin">16dp</dimen>
+</resources>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1080dp"
+    android:height="1920dp"
+    android:viewportWidth="1080"
+    android:viewportHeight="1920">
+
+    <!-- آسمان: گرادیان خاکی/کرم -->
+    <path android:fillColor="#E8DAB7" android:pathData="M0,0 L1080,0 L1080,1300 L0,1300 Z" />
+
+    <!-- گرادیان پایین آسمان (طلایی غروب) -->
+    <path android:fillColor="#D4A24C" android:pathData="M0,1000 L1080,1000 L1080,1300 L0,1300 Z" android:fillAlpha="0.4" />
+
+    <!-- خورشید -->
+    <path android:fillColor="#E8B547" android:pathData="M540,260 m-110,0 a110,110 0 1,0 220,0 a110,110 0 1,0 -220,0" />
+    <path android:fillColor="#FFD96B" android:pathData="M540,260 m-80,0 a80,80 0 1,0 160,0 a80,80 0 1,0 -160,0" android:fillAlpha="0.6" />
+
+    <!-- کوه‌های دوردست (سایه تیره) -->
+    <path android:fillColor="#8C6E3F"
+        android:pathData="M0,1100 L120,920 L220,1020 L340,870 L460,990 L580,880 L700,1000 L820,890 L940,990 L1080,930 L1080,1300 L0,1300 Z"
+        android:fillAlpha="0.55" />
+
+    <!-- کوه‌های نزدیک‌تر -->
+    <path android:fillColor="#6B4F2E"
+        android:pathData="M0,1180 L80,1080 L180,1150 L280,1060 L380,1140 L480,1080 L580,1150 L680,1070 L780,1140 L880,1090 L980,1150 L1080,1100 L1080,1300 L0,1300 Z"
+        android:fillAlpha="0.7" />
+
+    <!-- پلتفرم سنگی پایه -->
+    <path android:fillColor="#A78857" android:pathData="M0,1300 L1080,1300 L1080,1920 L0,1920 Z" />
+    <path android:fillColor="#8C6E3F" android:pathData="M0,1300 L1080,1300 L1080,1340 L0,1340 Z" />
+
+    <!-- پلکانی سنگی -->
+    <path android:fillColor="#6B4F2E" android:pathData="M0,1280 L1080,1280 L1080,1300 L0,1300 Z" />
+    <path android:fillColor="#5C3D1F" android:pathData="M0,1260 L1080,1260 L1080,1280 L0,1280 Z" />
+
+    <!-- ستون‌های تخت جمشید -->
+    <!-- ستون 1 -->
+    <group>
+        <path android:fillColor="#C9B68A" android:pathData="M100,700 L180,700 L180,1260 L100,1260 Z" />
+        <!-- شفت‌های ستون (فلوت) -->
+        <path android:fillColor="#8C6E3F" android:pathData="M105,720 L108,1260 M115,720 L118,1260 M125,720 L128,1260 M135,720 L138,1260 M145,720 L148,1260 M155,720 L158,1260 M165,720 L168,1260 M175,720 L178,1260" android:strokeColor="#8C6E3F" android:strokeWidth="1.5" />
+        <!-- پایه -->
+        <path android:fillColor="#A78857" android:pathData="M90,1240 L190,1240 L195,1260 L85,1260 Z" />
+        <!-- سرستون زنگوله‌ای -->
+        <path android:fillColor="#A78857" android:pathData="M85,690 L195,690 L180,720 L100,720 Z" />
+        <!-- اباکوس -->
+        <path android:fillColor="#8C6E3F" android:pathData="M80,680 L200,680 L200,690 L80,690 Z" />
+    </group>
+
+    <!-- ستون 2 -->
+    <group>
+        <path android:fillColor="#C9B68A" android:pathData="M240,720 L320,720 L320,1260 L240,1260 Z" />
+        <path android:strokeColor="#8C6E3F" android:strokeWidth="1.5" android:pathData="M245,740 L248,1260 M255,740 L258,1260 M265,740 L268,1260 M275,740 L278,1260 M285,740 L288,1260 M295,740 L298,1260 M305,740 L308,1260 M315,740 L318,1260" />
+        <path android:fillColor="#A78857" android:pathData="M230,1240 L330,1240 L335,1260 L225,1260 Z" />
+        <path android:fillColor="#A78857" android:pathData="M225,710 L335,710 L320,740 L240,740 Z" />
+        <path android:fillColor="#8C6E3F" android:pathData="M220,700 L340,700 L340,710 L220,710 Z" />
+    </group>
+
+    <!-- ستون 3 -->
+    <group>
+        <path android:fillColor="#C9B68A" android:pathData="M380,700 L460,700 L460,1260 L380,1260 Z" />
+        <path android:strokeColor="#8C6E3F" android:strokeWidth="1.5" android:pathData="M385,720 L388,1260 M395,720 L398,1260 M405,720 L408,1260 M415,720 L418,1260 M425,720 L428,1260 M435,720 L438,1260 M445,720 L448,1260 M455,720 L458,1260" />
+        <path android:fillColor="#A78857" android:pathData="M370,1240 L470,1240 L475,1260 L365,1260 Z" />
+        <path android:fillColor="#A78857" android:pathData="M365,690 L475,690 L460,720 L380,720 Z" />
+        <path android:fillColor="#8C6E3F" android:pathData="M360,680 L480,680 L480,690 L360,690 Z" />
+    </group>
+
+    <!-- ستون 4 -->
+    <group>
+        <path android:fillColor="#C9B68A" android:pathData="M520,720 L600,720 L600,1260 L520,1260 Z" />
+        <path android:strokeColor="#8C6E3F" android:strokeWidth="1.5" android:pathData="M525,740 L528,1260 M535,740 L538,1260 M545,740 L548,1260 M555,740 L558,1260 M565,740 L568,1260 M575,740 L578,1260 M585,740 L588,1260 M595,740 L598,1260" />
+        <path android:fillColor="#A78857" android:pathData="M510,1240 L610,1240 L615,1260 L505,1260 Z" />
+        <path android:fillColor="#A78857" android:pathData="M505,710 L615,710 L600,740 L520,740 Z" />
+        <path android:fillColor="#8C6E3F" android:pathData="M500,700 L620,700 L620,710 L500,710 Z" />
+    </group>
+
+    <!-- ستون 5 -->
+    <group>
+        <path android:fillColor="#C9B68A" android:pathData="M660,700 L740,700 L740,1260 L660,1260 Z" />
+        <path android:strokeColor="#8C6E3F" android:strokeWidth="1.5" android:pathData="M665,720 L668,1260 M675,720 L678,1260 M685,720 L688,1260 M695,720 L698,1260 M705,720 L708,1260 M715,720 L718,1260 M725,720 L728,1260 M735,720 L738,1260" />
+        <path android:fillColor="#A78857" android:pathData="M650,1240 L750,1240 L755,1260 L645,1260 Z" />
+        <path android:fillColor="#A78857" android:pathData="M645,690 L755,690 L740,720 L660,720 Z" />
+        <path android:fillColor="#8C6E3F" android:pathData="M640,680 L760,680 L760,690 L640,690 Z" />
+    </group>
+
+    <!-- ستون 6 -->
+    <group>
+        <path android:fillColor="#C9B68A" android:pathData="M800,720 L880,720 L880,1260 L800,1260 Z" />
+        <path android:strokeColor="#8C6E3F" android:strokeWidth="1.5" android:pathData="M805,740 L808,1260 M815,740 L818,1260 M825,740 L828,1260 M835,740 L838,1260 M845,740 L848,1260 M855,740 L858,1260 M865,740 L868,1260 M875,740 L878,1260" />
+        <path android:fillColor="#A78857" android:pathData="M790,1240 L890,1240 L895,1260 L785,1260 Z" />
+        <path android:fillColor="#A78857" android:pathData="M785,710 L895,710 L880,740 L800,740 Z" />
+        <path android:fillColor="#8C6E3F" android:pathData="M780,700 L900,700 L900,710 L780,710 Z" />
+    </group>
+
+    <!-- ستون 7 -->
+    <group>
+        <path android:fillColor="#C9B68A" android:pathData="M940,700 L1020,700 L1020,1260 L940,1260 Z" />
+        <path android:strokeColor="#8C6E3F" android:strokeWidth="1.5" android:pathData="M945,720 L948,1260 M955,720 L958,1260 M965,720 L968,1260 M975,720 L978,1260 M985,720 L988,1260 M995,720 L998,1260 M1005,720 L1008,1260 M1015,720 L1018,1260" />
+        <path android:fillColor="#A78857" android:pathData="M930,1240 L1030,1240 L1035,1260 L925,1260 Z" />
+        <path android:fillColor="#A78857" android:pathData="M925,690 L1035,690 L1020,720 L940,720 Z" />
+        <path android:fillColor="#8C6E3F" android:pathData="M920,680 L1040,680 L1040,690 L920,690 Z" />
+    </group>
+
+    <!-- تیر بین ستون‌ها -->
+    <path android:fillColor="#8C6E3F" android:pathData="M70,660 L1040,660 L1040,690 L70,690 Z" />
+    <path android:fillColor="#6B4F2E" android:pathData="M70,650 L1040,650 L1040,660 L70,660 Z" />
+
+    <!-- فرورفتگی‌های تیر -->
+    <path android:fillColor="#5C3D1F" android:pathData="M150,660 L155,690 M290,660 L295,690 M430,660 L435,690 M570,660 L575,690 M710,660 L715,690 M850,660 L855,690 M990,660 L995,690" />
+
+    <!-- سایه روی پلتفرم -->
+    <path android:fillColor="#3D2A18" android:fillAlpha="0.25"
+        android:pathData="M0,1340 L1080,1340 L1080,1380 L0,1380 Z" />
+
+    <!-- نقش هخامنشی روی پلتفرم -->
+    <group android:translateX="540" android:translateY="1500">
+        <path android:fillColor="#6B4F2E" android:fillAlpha="0.5"
+            android:pathData="M-80,0 L80,0 L80,8 L-80,8 Z M-60,12 L60,12 L60,20 L-60,20 Z" />
+    </group>
+
+</vector>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- پالت خاکی و سنگی (تخت جمشید) -->
+    <color name="persepolis_stone">#C9B68A</color>
+    <color name="persepolis_dark">#8C6E3F</color>
+    <color name="persepolis_earth">#6B4F2E</color>
+    <color name="persepolis_cream">#F4E9D2</color>
+    <color name="persepolis_sky">#E8DAB7</color>
+    <color name="persepolis_shadow">#3D2A18</color>
+
+    <!-- رنگ‌های اصلی UI -->
+    <color name="primary_dark">#5C3D1F</color>
+    <color name="primary_base">#8C6E3F</color>
+    <color name="primary_light">#C9B68A</color>
+    <color name="accent_gold">#D4A24C</color>
+    <color name="accent_dark_gold">#9A7820</color>
+
+    <!-- متن -->
+    <color name="text_primary">#3D2A18</color>
+    <color name="text_secondary">#6B4F2E</color>
+    <color name="text_light">#F4E9D2</color>
+    <color name="text_gold">#D4A24C</color>
+
+    <!-- دکمه‌ها -->
+    <color name="button_primary">#8C6E3F</color>
+    <color name="button_primary_pressed">#5C3D1F</color>
+    <color name="button_secondary">#6B4F2E</color>
+    <color name="button_accent">#D4A24C</color>
+
+    <!-- بازی -->
+    <color name="win_green">#5E8B4A</color>
+    <color name="lose_red">#A04030</color>
+    <color name="draw_blue">#4A6B8B</color>
+
+    <!-- پس‌زمینه -->
+    <color name="bg_main">#3D2A18</color>
+    <color name="bg_card">#F4E9D2</color>
+    <color name="bg_overlay">#A03D2A18</color>
+
+    <!-- سکه -->
+    <color name="coin_gold">#FFD700</color>
+    <color name="coin_dark_gold">#B8860B</color>
+</resources>

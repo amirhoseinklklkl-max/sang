@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- عمومی -->
+    <string name="app_name">سنگ کاغذ قیچی ایرانی</string>
+    <string name="app_name_short">سنگ کاغذ قیچی</string>
+
+    <!-- منوی اصلی -->
+    <string name="menu_start">شروع بازی</string>
+    <string name="menu_shop">فروشگاه</string>
+    <string name="menu_exit">خروج</string>
+    <string name="coins_label">سکه</string>
+
+    <!-- بازی -->
+    <string name="game_title">سنگ، کاغذ، قیچی</string>
+    <string name="player_label">شما</string>
+    <string name="ai_label">حریف</string>
+    <string name="choose_hand">انتخاب کن!</string>
+    <string name="rock">سنگ</string>
+    <string name="paper">کاغذ</string>
+    <string name="scissors">قیچی</string>
+    <string name="count_one">یک!</string>
+    <string name="count_two">دو!</string>
+    <string name="count_three">سه!</string>
+
+    <!-- نتایج -->
+    <string name="result_win">بردی! 🎉</string>
+    <string name="result_lose">باختی 😔</string>
+    <string name="result_draw">مساوی 🤝</string>
+    <string name="reward_win">+۵۰ سکه</string>
+    <string name="reward_draw">+۵ سکه</string>
+    <string name="play_again">دوباره بازی کن</string>
+    <string name="back_to_menu">منو</string>
+
+    <!-- فروشگاه -->
+    <string name="shop_title">فروشگاه دست‌ها</string>
+    <string name="shop_coins_label">سکه شما</string>
+    <string name="buy">خرید</string>
+    <string name="select">انتخاب</string>
+    <string name="selected">انتخاب شده ✓</string>
+    <string name="not_enough">سکه کافی ندارید</string>
+    <string name="purchase_success">خرید موفق بود!</string>
+
+    <!-- اسکین‌ها -->
+    <string name="skin_basic">دست پایه</string>
+    <string name="skin_flower">تتو گل</string>
+    <string name="skin_iran">تتو ایران</string>
+    <string name="skin_golden">دست طلایی</string>
+    <string name="skin_fire">دست آتشین</string>
+    <string name="skin_emerald">دست زمردی</string>
+    <string name="skin_lion">تتو شیر</string>
+    <string name="skin_royal">دست پادشاهی</string>
+
+    <!-- خروج -->
+    <string name="exit_confirm">آیا از بازی خارج می‌شوید؟</string>
+    <string name="exit_yes">بله</string>
+    <string name="exit_no">خیر</string>
+
+    <!-- توضیحات -->
+    <string name="win_rock">سنگ، قیچی را خرد کرد!</string>
+    <string name="win_paper">کاغذ، سنگ را پوشاند!</string>
+    <string name="win_scissors">قیچی، کاغذ را برید!</string>
+</resources>

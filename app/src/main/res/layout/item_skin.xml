@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="6dp"
+    app:cardBackgroundColor="@color/persepolis_cream">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="12dp">
+
+        <!-- پیش‌نمایش دست -->
+        <com.rps.iranian.view.HandView
+            android:id="@+id/handPreview"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+        <!-- اطلاعات اسکین -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="12dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvSkinName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/vazirmatn_bold"
+                android:textColor="@color/text_primary"
+                android:textSize="18sp"
+                tools:text="دست طلایی" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginTop="6dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_coin" />
+
+                <TextView
+                    android:id="@+id/tvPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:fontFamily="@font/vazirmatn_bold"
+                    android:textColor="@color/coin_dark_gold"
+                    android:textSize="16sp"
+                    tools:text="۱۰۰۰" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- دکمه خرید/انتخاب -->
+        <Button
+            android:id="@+id/btnAction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:fontFamily="@font/vazirmatn_bold"
+            android:textColor="@color/text_light"
+            android:textSize="14sp"
+            android:textAllCaps="false"
+            android:minWidth="100dp"
+            tools:text="خرید" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
