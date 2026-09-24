@@ -97,7 +97,7 @@ class HandView @JvmOverloads constructor(
             addUpdateListener { anim ->
                 val t = anim.animatedValue as Float
                 shakeOffset = sin(t * Math.PI * 4).toFloat() * 30f
-                bounceScale = 1f + sin(t * Math.PI * 4).absoluteValue * 0.05f
+                bounceScale = 1f + sin(t * Math.PI * 4).toFloat().absoluteValue * 0.05f
                 invalidate()
             }
         }
